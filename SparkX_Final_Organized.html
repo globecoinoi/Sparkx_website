@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   SparkX: A Community-Driven DeFi Ecosystem on Solana
+  </title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet"/>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Kanit', sans-serif;
+            background: linear-gradient(135deg, #13151a 0%, #1e2128 100%);
+            color: #e1e1e1;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #00c6fb, #005bea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .progress-bar {
+            background: linear-gradient(90deg, #00c6fb, #005bea);
+        }
+        
+        .token-distribution {
+            position: relative;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .distribution-segment {
+            height: 100%;
+            float: left;
+        }
+  </style>
+</head>
+<body class="min-h-screen py-8">
+<div class="container mx-auto px-4 max-w-6xl mx-auto px-4">
+<!-- Header -->
+<header class="text-center mb-16">
+<h1 class="text-5xl font-bold mb-4 gradient-text">
+     SparkX
+    </h1>
+<p class="text-xl text-gray-400">
+     A Community-Driven DeFi Ecosystem on Solana
+    </p>
+</header>
+<!-- Executive Summary -->
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 80%; background: linear-gradient(90deg, #00c6fb, #005bea);">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Development Reserve (10%)
+       </span>
+<span>
+        100,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 10%; background: #666;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Emergency Reserve (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #888;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Additional Development Fund (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #aaa;">
+</div>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Executive Summary
+    </h2>
+<p class="text-lg leading-relaxed">
+     SparkX is a revolutionary DeFi protocol on Solana, operating with a 'Community-First Protocol' philosophy. The platform distributes 80% of tokens to the community, fostering a comprehensive ecosystem that includes DeFi, GameFi, and Metaverse integration.
+    </p>
+
+<!-- Token Distribution -->
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 80%; background: linear-gradient(90deg, #00c6fb, #005bea);">
+</div>
+</div>
+
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Development Reserve (10%)
+       </span>
+<span>
+        100,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 10%; background: #666;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Emergency Reserve (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #888;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Additional Development Fund (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #aaa;">
+</div>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Token Distribution
+    </h2>
+<div class="mb-8">
+</div>
+
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Development Reserve (1%)
+       </span>
+<span>
+        10,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 1%; background: #666;">
+</div>
+</div>
+</div>
+
+<!-- Community Allocation Breakdown -->
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Community Allocation
+      </h3>
+<ul class="space-y-4">
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Staking &amp; Rewards
+         </span>
+<span>
+          40%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 40%">
+</div>
+</div>
+</li>
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Mining
+         </span>
+<span>
+          30%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 30%">
+</div>
+</div>
+</li>
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Liquidity Pools
+         </span>
+<span>
+          20%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 20%">
+</div>
+</div>
+</li>
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Community Initiatives
+         </span>
+<span>
+          9%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 9%">
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Development Reserve
+      </h3>
+<ul class="space-y-4">
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Project Development
+         </span>
+<span>
+          0.5%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 50%">
+</div>
+</div>
+</li>
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Operational Costs
+         </span>
+<span>
+          0.3%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 30%">
+</div>
+</div>
+</li>
+<li>
+<div class="flex justify-between mb-1">
+<span>
+          Emergency Reserve
+         </span>
+<span>
+          0.2%
+         </span>
+</div>
+<div class="h-2 bg-gray-700 rounded-full">
+<div class="h-2 progress-bar rounded-full" style="width: 20%">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+<!-- Roadmap -->
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 80%; background: linear-gradient(90deg, #00c6fb, #005bea);">
+</div>
+</div>
+
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Development Reserve (10%)
+       </span>
+<span>
+        100,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 10%; background: #666;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Emergency Reserve (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #888;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Additional Development Fund (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #aaa;">
+</div>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Roadmap
+    </h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Phase 1 -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Phase 1: Foundation
+      </h3>
+<p class="text-gray-400 mb-2">
+       Q1 2025
+      </p>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • Token Launch on PumpFun
+       </li>
+<li>
+        • Smart Contract Audit
+       </li>
+<li>
+        • Community Building
+       </li>
+<li>
+        • Initial DEX Launch
+       </li>
+</ul>
+</div>
+<!-- Phase 2 -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Phase 2: Expansion
+      </h3>
+<p class="text-gray-400 mb-2">
+       Q2 2025
+      </p>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • Mining Protocol Launch
+       </li>
+<li>
+        • Cross-chain Bridge
+       </li>
+<li>
+        • Advanced Staking
+       </li>
+<li>
+        • Partnership Ecosystem
+       </li>
+</ul>
+</div>
+<!-- Phase 3 -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Phase 3: Innovation
+      </h3>
+<p class="text-gray-400 mb-2">
+       Q3 2025
+      </p>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • SparkX DApp Suite
+       </li>
+<li>
+        • NFT Platform
+       </li>
+<li>
+        • Governance System
+       </li>
+<li>
+        • Yield Optimization
+       </li>
+</ul>
+</div>
+<!-- Phase 4 -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Phase 4: Evolution
+      </h3>
+<p class="text-gray-400 mb-2">
+       2026
+      </p>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • Metaverse Integration
+       </li>
+<li>
+        • GameFi Platform
+       </li>
+<li>
+        • AI-powered Trading
+       </li>
+<li>
+        • Cross-chain Expansion
+       </li>
+</ul>
+</div>
+</div>
+
+<!-- Features -->
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 80%; background: linear-gradient(90deg, #00c6fb, #005bea);">
+</div>
+</div>
+
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Development Reserve (10%)
+       </span>
+<span>
+        100,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 10%; background: #666;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Emergency Reserve (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #888;">
+</div>
+</div>
+</div>
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Additional Development Fund (5%)
+       </span>
+<span>
+        50,000,000 SPRX
+       </span>
+</div>
+<div class="token-distribution">
+<div class="distribution-segment" style="width: 5%; background: #aaa;">
+</div>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Core Features
+    </h2>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- DEX -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       SparkX DEX
+      </h3>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • Next-generation AMM Protocol
+       </li>
+<li>
+        • 40% lower slippage than competitors
+       </li>
+<li>
+        • Sustainable Liquidity Mining System
+       </li>
+</ul>
+</div>
+<!-- Yield -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       Yield Optimization
+      </h3>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • Auto-compounding farms
+       </li>
+<li>
+        • Risk-adjusted strategies
+       </li>
+<li>
+        • Cross-chain aggregation
+       </li>
+</ul>
+</div>
+<!-- NFT -->
+<div class="p-6 bg-gray-800 rounded-lg">
+<h3 class="text-xl font-semibold mb-4 text-xl font-bold mt-4">
+       NFT Integration
+      </h3>
+<ul class="space-y-2 text-gray-300">
+<li>
+        • NFT Staking and Farming
+       </li>
+<li>
+        • Gas-free Marketplace
+       </li>
+<li>
+        • NFT Collateralization
+       </li>
+</ul>
+</div>
+</div>
+
+<!-- Contact -->
+<div class="card rounded-xl p-8 mb-12 p-6">
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Contact &amp; Resources
+    </h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6 text-center">
+<a class="p-6 bg-blue-500 rounded-lg shadow-lg border-4 border-yellow-400 hover:shadow-xl transition-all transform hover:-translate-y-1 hover:scale-105" href="https://t.me/sparkxio" target="_blank">
+<h3 class="text-xl font-semibold text-white text-xl font-bold mt-4">
+       Telegram
+      </h3>
+</a>
+<a class="p-6 bg-blue-500 rounded-lg shadow-lg border-4 border-yellow-400 hover:shadow-xl transition-all transform hover:-translate-y-1 hover:scale-105" href="https://globecoinoi.github.io/Sparkx.github.io/" target="_blank">
+<h3 class="text-xl font-semibold text-white text-xl font-bold mt-4">
+       Website
+      </h3>
+</a>
+<a class="p-6 bg-blue-500 rounded-lg shadow-lg border-4 border-yellow-400 hover:shadow-xl transition-all transform hover:-translate-y-1 hover:scale-105" href="https://t.me/+xxT0Tt-8CMEyZDNl" target="_blank">
+<h3 class="text-xl font-semibold text-white text-xl font-bold mt-4">
+       Support
+      </h3>
+</a>
+<a class="p-6 bg-blue-500 rounded-lg shadow-lg border-4 border-yellow-400 hover:shadow-xl transition-all transform hover:-translate-y-1 hover:scale-105" href="https://www.facebook.com/profile.php?id=61571755373558&amp;mibextid=ZbWKwL" target="_blank">
+<h3 class="text-xl font-semibold text-white text-xl font-bold mt-4">
+       Facebook
+      </h3>
+</a>
+<a class="p-6 bg-blue-500 rounded-lg shadow-lg border-4 border-yellow-400 hover:shadow-xl transition-all transform hover:-translate-y-1 hover:scale-105" href="https://x.com/CoinGlobe12730?t=AiK5SxOdKwZpbqPCmUTGZg&amp;s=09" target="_blank">
+<h3 class="text-xl font-semibold text-white text-xl font-bold mt-4">
+       X (Twitter)
+      </h3>
+</a>
+</div>
+</div>
+<!-- Footer -->
+<footer class="mt-12 text-center text-gray-400">
+<p class="text-sm">
+     © 2025 SparkX Protocol. All rights reserved.
+    </p>
+</footer>
+
+<div class="card rounded-xl p-8 mb-12 mb-12 p-6">
+<h2 class="text-3xl font-bold mb-6 gradient-text text-xl font-bold mt-4">
+     Token Distribution
+    </h2>
+<div class="mb-8">
+<div class="mb-4">
+<div class="flex justify-between mb-2">
+<span>
+        Community Allocation (80%)
+       </span>
+<span>
+        800,000,000 SPRX
+       </span>
+</div></div></div></div></body>
+</html>
